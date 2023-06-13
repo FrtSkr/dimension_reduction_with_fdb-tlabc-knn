@@ -3,8 +3,8 @@ global VERI;
 
 dataset_name= ["z-alizadeh", "user_knowledge"];
 
-Verileri_Oku(dataset_name(1));
-[popsize, D, maxFES, lbArray, ubArray] = problem_terminate(dataset_name(1));
+Verileri_Oku(dataset_name(2));
+[popsize, D, maxFES, lbArray, ubArray] = problem_terminate(dataset_name(2));
 
 lu = [lbArray; ubArray];
 Xmin = lu(1,:);
